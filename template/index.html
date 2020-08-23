@@ -20,7 +20,7 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/app.css" rel="stylesheet" />
+    <link href="template/assets/css/app.css" rel="stylesheet" />
     <title>Pam Hamrick | Portfolio</title>
 </head>
 
@@ -32,7 +32,7 @@
                 <h1 class="name">Pam Hamrick.</h1>
                 <h3 class="subtitle text-center">Always learning.</h3>
                 
-                <img src="C:/Vandy/DataAnalyticsBootCamp/MyRepo/portfolio/template/Resources/python_data_analyst.png" />
+                <img src="/images/python_data_analyst.png" />
             </div>
         </div>
         <div class="wave-svg">
@@ -95,7 +95,7 @@
     </section>
 
     <div class="wave-svg-color">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="##30336B" opacity="1" width="100%" height="80"
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#30336B" opacity="1" width="100%" height="80"
             preserveAspectRatio="none" viewBox="0 0 1600 200">
             <path d="M-8,95.3C-8,95.3,189,2,398,2s604,184.7,800,184.7s412-91.4,412-91.4V271H-8V95.3z" />
             <path
@@ -113,7 +113,7 @@
                 </span>
 
                 <h3 class="card-title">More about Me</h3>
-                <p class="card-text">I am a senior IT professional seeking a new position that will utilize my depth of experience and ability to apply new skills. </p>
+                <p class="card-text">I am a senior IT professional seeking a new position in data analytics that will utilize my depth of experience and ability to apply new skills. </p>
                
                 <h5 class="card-title">
                     PeopleSoft Experience:
@@ -134,10 +134,11 @@
                     SSRS, SSMS, Python, SQL Server, Oracle, Excel, VBA, VS Code, Visual Studio
                 </p>
                <h5 class="card-title">
-                    New things I'm learning:
+                    New things I'm learning at Boot Camp:
                 </h5>
                 <p class="card-text">
-                    Python (with SQLAlchemy, Pandas, Matplotlib), API, PostgreSQL, MongoDB, Flask, SQLite, BeautifulSoup
+                    Python (with SQLAlchemy, Pandas, Matplotlib), API, PostgreSQL, MongoDB, Flask, Splinter, SQLite, BeautifulSoup(web scraping), JavaScript, Plotly, HTML, CSS
+
                 </p>
                 
             </div>
@@ -147,7 +148,7 @@
     <!-- TIMELINE -->
     <section class="container">
         <h1 class="title">Recent Projects</h1>
-        <h3 class="subtitle">These are just a few of the projects I have collaborated on.</h3>
+        <h3 class="subtitle">These are just a few of the projects I have completed.</h3>
     </section>
 
 
@@ -159,20 +160,29 @@
 
                 </div>
                 <div class="timeline-content">
-                    <h2>Election Analysis</h2>
-                    <p>
-                        Python code to collect, tabulate, analyze election results. This is an exercise for Module 3 the Data Anaylysis Bootcamp at Vandy. Complete and election audit/analysis of a recent Colorado local congressional election.
-
-                        Calulate the total votes cast in the election.
-                        List all candidates who received votes.
-                        Calculate the total votes for each candidate.
-                        Determine the percentage of votes for each candidate.
-                        Determine the winner of the election base on popular vote.
-                        Determine the percentage of votes for each county.
-                        Determine the county with the hightest voter turnout.
-                    </p>
-                    <a href="https://github.com/mspamelalea/Election-Analysis.git" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <!--<a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>-->
+                    <h2>UFO Sightings</h2>
+<p>
+This project builds a website with Bootstrap and JavaScript to display data on UFO sightings.
+The data is displayed in a table with the option of filtering the sighting on these elements:
+<ul>
+  <li>Date</li>
+  <li>City</li>
+  <li>State</li>
+  <li>Country</li>
+  <li>Shape (or form) of craft</li>
+</ul>
+</p>
+<p>Technology Used: 
+<ul>
+<li>JavaScript</li>
+<li>Data-Driven Documents (D3) JavaScript library</li>
+<li>Bootstrap</li>
+<li>HTML</li>
+<li>CSS</li>
+</ul>
+</p>
+                    <a href="https://github.com/mspamelalea/UFOs.git" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://mspamelalea.github.io/UFOs/index.html" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
                 </div>
             </div>
 
@@ -182,17 +192,27 @@
 
                 </div>
                 <div class="timeline-content right">
-                    <h2>School District Analysis</h2>
-                    <p> Analyzing school district standardized testing data for Maria. Python code to collect, tabulate, analyze election results. This is an exercise for Module 4 the Data Anaylysis Bootcamp at Vandy. Complete and election audit/analysis of a recent Colorado local congressional election.
-
-                        An big-picture review of the district's key measurements., presented in a table format
-                        An overview of the key metrics for each school, presented in a table format
-                        Tables presenting each of the following metrics: o Top 5 and bottom 5 performing schools, based on the overall passing rate (both math and reading scores) o The average math score for students in each grade level (9th - 12th) at each school o The average reading score for students in each grade level (9th - 12th) at each school o Each school's performance based on the budget per student o Each school's performance based on the school size o Each school's performance based on the type of school
-                        After providing the analysis to Maria, she determined that all 9th grade scores at Thomas High Schoool were invalid and asked that the 9th grade scores from that school be removed from the analysis. Once those scores were removed, the same analysis was provided below with the remaining data.
-                        
+                    <h2>Bacterio Biodiversity</h2>
+                    <p> A scientific investigation into plausibility of finding the right bacteria to synthesize proteins that taste like beef. The right bacteria may exist in someone's belly button. This study collected belly button bacteria and other data from participants including:
+                        <ul> 
+                            <li>participant id</li>
+                            <li>ethnicity</li>
+                            <li>gender</li>
+                            <li>city/state</li> 
+                            <li>belly button type</li>
+                            <li>wash frequency</li>
+                        </ul>
                     </p>
-                    <a href="https://github.com/mspamelalea/School_District_Analysis.git" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <!--<a href="#" class="btn"><i class="fas fa-tv"></i> </a>-->
+                    <p> Technology used:
+                        <ul>
+                            <li>JavaScript </li>
+                            <li>D3</li>
+                            <li>Plotly</li>
+                            <li>HTML</li>
+                        </ul>
+                    </p>
+                    <a href="https://github.com/mspamelalea/BacteriaBiodiversity.git" class="btn"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://mspamelalea.github.io/BacteriaBiodiversity/index.html" class="btn"><i class="fas fa-tv"></i> </a>
                 </div>
             </div>
 
@@ -201,12 +221,27 @@
                     <i class="fas fa-star fa-align"></i>
                 </div>
                 <div class="timeline-content">
-                    <h2>Pyber Co. Analysis</h2>
-                    <p>
-                        This exercise is intended to visually explain the relationship between average fares and city types over a period of 4 months. Additionally, a summary is provided to show by City type: Total Drivers, Totals Rides, Total Fares, Average Fare by Driver, and Average Fare by Rides.
-                        The data was anaylized by utilizing functions like count(), index(), unique(), .dtypes, and describe(). Various plots were made with the merged data to develop an understanding of the data metrics.
-
-                    </p>
+                    <h2>Ride Share Analysis</h2>
+<p>
+This project visually explains the relationship between average fares and city types over a period of 4 months for a ride share company. Additionally, a summary is provided to show by City type: 
+<ul>
+<li>Total Drivers</li>
+<li>Totals Rides</li>
+<li>Total Fares</li>
+<li>Average Fare by Driver</i>
+<li>Average Fare by Rides</li>
+</ul>
+</p>
+<p>The data was analyzed by utilizing functions like count(), index(), unique(), .dtypes, and describe(). Various plots were made with the merged data to develop an understanding of the data metrics.
+</p>
+<p>Technology used:
+<ul>
+<li>Python 3.7.6</li>
+<li>Jupyter Notebook 6.0.3</li>
+<li>Pandas 1.0.1</li>
+<li>Numpy 1.18</li>
+</ul>
+</p>
                     <a href="https://github.com/mspamelalea/PyBer_Analysis.git" class="btn"><i class="fab fa-github"></i> Code</a>
                     <!--<a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>-->
 
@@ -221,19 +256,19 @@
                 <div class="timeline-content right">
                     <h2>World Weather Analysis</h2>
                     <p>
-                        Gather weather data to plot for a travel company.
-                        The ultimate aim is to build an app the for users to plan their travel itinerary. This analysis prepares a database of random cities around the world, finds a hotel nearby and drops a marker on a map with a pop-up that shows the hotel name and current weather. It also produces a driving map with four cities, chosen by the user based on their criteria, marked.
-
-                        Techologies used: 
-                        Pyton 3.7.6 
-                        Jupyter Notebook 6.0.3 
-                        Pandas 1.0.1 
-                        Numpy 1.18.1 
-                        scipy.stats 
-                        requests 
-                        citipy gmaps
-
-                    </p>
+                        This project gathers weather data to plot for a travel company. This analysis prepares a database of random cities around the world, finds a hotel nearby and drops a marker on a map with a pop-up that shows the hotel name and current weather. It also produces a driving map with four cities, chosen by the user based on their criteria, marked.
+</p>
+<p>Technology used: 
+<ul>
+       <li>Python 3.7.6 </li>
+       <li> Jupyter Notebook 6.0.3</li>
+       <li>Pandas 1.0.1 </li>
+       <li>Numpy 1.18.1 </li>
+       <li>scipy.stats </li>
+       <li>requests </li>
+       <li>citipy gmaps</li>
+</ul>
+</p>
                     <a href="https://github.com/mspamelalea/World_Weather_Analysis.git" class="btn"><i class="fab fa-github"></i> Code</a>
                     <!--<a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>-->
                 </div>
@@ -244,19 +279,18 @@
                     <i class="fas fa-star fa-align"></i>
                 </div>
                 <div class="timeline-content">
-                    <h2>"Pewlett Hackard" Analysis</h2>
-                    <p>
-                         Our goal is to provide for management the total number of employees eligible for retirement, 
-                         the same information broken down by retirement-eligible employees per title, a list of the 
-                         retirement-eligible employees and a list of employees eligible to participate in the mentorship program.
-                         Pewlett-Hackerd expects a large portion of employees will be retiring soon. Management has 
-                         requested information to determine who is eligilbe for retirement, how many are eligible, 
-                         and how many are eligible by their title. Also needed is a list of current employees who 
-                         would be eligible to participate in the mentorship program. This information will help
-                         management plan for the large number of expected retirements.
-                         Using six csv files provided, build a relational database that contains employee and 
-                         departmental information from which we can provide reports for management.
-                    </p>
+                    <h2>Retiring Employees Analysis</h2>
+<p>This project provides for management the total number of employees eligible for retirement, the same information broken down by retirement-eligible employees per title, a list of the retirement-eligible employees and a list of employees eligible to participate in a mentorship program.
+</p>
+<p>The company expects a large portion of employees will be retiring soon. Management has requested information to determine who is eligible for retirement, how many are eligible, and how many are eligible by their title. Also needed is a list of current employees who would be eligible to participate in a mentorship program. This information will help management plan for the large number of expected retirements. Using six csv files, relational database was created that contains employee and departmental information from which reports can be provided for management.
+</p>
+<p>Technology used:
+<ul>
+<li>Postgres database</li>
+<li>PgAdmin editor</li>
+<li>QuickDBD ERD builder</li>
+</ul>
+</p>
                     <a href="https://github.com/mspamelalea/Pewlett-Hackard-Analysis.git" class="btn"><i class="fab fa-github"></i> Code</a>
                     <!--<a href="#" class="btn"><i class="fas fa-tv"></i> Live Demo</a>-->
                 </div>
@@ -275,12 +309,12 @@
         <hr />
         <article class="education-item">
             <h3 class="subtitle">University of Texas at Tyler</h3>
-            <span class="text-muted">Master of Science - Computer Science | 1989</span>
+            <span class="text-muted">Master of Science - Computer Science </span>
         </article>
         <hr />
         <article class="education-item">
             <h3 class="subtitle">University of Texas at Tyler</h3>
-            <span class="text-muted">Bachelor of Science - Mathematics and Computer Science| 1987</span>
+            <span class="text-muted">Bachelor of Science - Mathematics and Computer Science</span>
         </article>
 
 
@@ -292,8 +326,7 @@
         <div class="container">
             <h1 class="title">I'm available for work.
             </h1>
-            <h3 class="subtitle">Actively contributing to new projects and seeking a full-time role in a fast-paced,
-                agile environment. Get in touch!</h3>
+            <h3 class="subtitle">Actively contributing to new projects and seeking a full-time role in data analytics. Get in touch!</h3>
         </div>
     </section>
 
@@ -327,7 +360,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="template/assets/js/app.js"></script>
 </body>
 
 </html>
