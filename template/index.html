@@ -22,6 +22,23 @@
     <!-- Custom styles for this template -->
     <link href="template/assets/css/app.css" rel="stylesheet" />
     <title>Pam Hamrick | Portfolio</title>
+
+    <style>
+        .button {
+          background-color: #30336B; /* Purple */
+          border: none;
+          color: white;
+          padding: 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 2px;
+        }
+        
+        </style>
 </head>
 
 <body>
@@ -192,8 +209,8 @@ The data is displayed in a table with the option of filtering the sighting on th
 
                 </div>
                 <div class="timeline-content right">
-                    <h2>Bacterio Biodiversity</h2>
-                    <p> A scientific investigation into plausibility of finding the right bacteria to synthesize proteins that taste like beef. The right bacteria may exist in someone's belly button. This study collected belly button bacteria and other data from participants including:
+                    <h2>Bacteria Biodiversity</h2>
+                    <p> There is a scientific investigation into plausibility of finding the right bacteria to synthesize proteins that taste like beef. The right bacteria may exist in someone's belly button. This study collected belly button bacteria and other data from participants including:
                         <ul> 
                             <li>participant id</li>
                             <li>ethnicity</li>
@@ -203,6 +220,8 @@ The data is displayed in a table with the option of filtering the sighting on th
                             <li>wash frequency</li>
                         </ul>
                     </p>
+                    <p>When the participant's id is selected from the drop-down menu, three charts are displayed that demonstrate the quantity of bacteria in each OTU sample, the top ten bacteria for each participant, and the number of times per week the participant washes their navel. 
+                   </p>
                     <p> Technology used:
                         <ul>
                             <li>JavaScript </li>
@@ -212,7 +231,7 @@ The data is displayed in a table with the option of filtering the sighting on th
                         </ul>
                     </p>
                     <a href="https://github.com/mspamelalea/BacteriaBiodiversity.git" class="btn"><i class="fab fa-github"></i> Code</a>
-                    <a href="https://mspamelalea.github.io/BacteriaBiodiversity/index.html" class="btn"><i class="fas fa-tv"></i> </a>
+                    <a href="https://mspamelalea.github.io/BacteriaBiodiversity/index.html" class="btn"><i class="fas fa-tv"></i> Live Demo</a>
                 </div>
             </div>
 
@@ -323,10 +342,13 @@ This project visually explains the relationship between average fares and city t
 
     <!-- AVAILABLE FOR WORK -->
     <section class="container-color">
-        <div class="container">
+        <div class="container"  style="text-align:center">
             <h1 class="title">I'm available for work.
             </h1>
-            <h3 class="subtitle">Actively contributing to new projects and seeking a full-time role in data analytics. Get in touch!</h3>
+            <h3 class="subtitle">Actively contributing to new projects and seeking a full-time role in data analytics.<br>Get in touch!</h3>
+            <a href="Resources/PamHamrickResume2020.pdf" download>
+                <button class="button">Download My Resume</button>
+            </a>
         </div>
     </section>
 
